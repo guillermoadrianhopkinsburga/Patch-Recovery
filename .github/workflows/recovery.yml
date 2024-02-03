@@ -3,8 +3,7 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
-        description: 'RECOVERY URL'
+      RECOVERY_URL: https://transfer.sh/5qSH8p1IRc/recovery.img
         required: true
         default: 'https://transfer.sh/(RECOMMENDED)'
 
